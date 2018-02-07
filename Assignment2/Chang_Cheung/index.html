@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <title>Marina Café</title> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head> 
+<body> 
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <div class="container">
+            <h1 id="welcome">WELCOME TO</h1><br /><br />
+            <img src="img/logo.png" alt="logo"/>
+            </div>
+        </div>    
+    </header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+            <a class="navbar-brand" href="index.html">M&nbsp;A&nbsp;R&nbsp;I&nbsp;N&nbsp;A&nbsp;&nbsp;C&nbsp;A&nbsp;F&nbsp;É</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="performances.html">Performances</a></li> 
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br /><br />
+    <!-- About -->
+    <section id="info" class="info">
+        <div class="container" id="about">
+            <div class="panel panel-info">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                    <h3>ABOUT THE CAFÉ</h3>
+                    </div>
+                    <div class="col-sm-4 text-left" id="descript1">
+                        <!-- text source from http://www.belcafe.com -->
+                        <p>Here you will find rich coffee roasts, artisan teas, buttery flaky pastries and delicious gourmet sandwiches and soups. Marina’s love for colourful, confetti-like French macarons inspired our jewel box collection, featured alongside other frivolities. Our food is skillfully prepared by Marina and her talented team.</p><br />
+                    </div>
+                    <div class="col-sm-4 text-left" id="descript2">
+                        <p>Ideal for a breakfast bite, your morning coffee, a sumptuous lunch or afternoon snack attack, Marina Café ensures efficient table service alongside a grab-and-go selection of house-made confections, sandwiches and light bites. Specialty coffees are custom roasted locally by 49th Parallel and served by a team of highly trained baristas.</p><br />
+                    </div>
+                    <div class="col-sm-4 text-left" id="descript3">
+                        <p>Find a hand-chosen selection of flavorsome, fresh, savory and sweet offerings from the kitchen of Marina. Whether it’s a quick bite over custom coffee blends on the way to work or a refreshing light lunch after a visit to the shops or nearby art gallery, Marina Café is sure to delight and inspire.</p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map + Address -->
+    <div class="container" id="mapaddress">
+        <div class="panel panel-info">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="mapbox">
+                        <div id="map" class="map">
+                            <br /><br />
+                            <script>
+                            function myMap() {
+                              var myCenter = new google.maps.LatLng(49.885544, -119.488539);
+                              var mapCanvas = document.getElementById("map");
+                              var mapOptions = {center: myCenter, zoom: 15};
+                              var map = new google.maps.Map(mapCanvas, mapOptions);
+                              var marker = new google.maps.Marker({position:myCenter});
+                              marker.setMap(map);
+                            }
+                            </script>
+                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMuT4UoB3N-5VAaeOcMo5mCPRj2-LCE8&callback=myMap"></script>
+                            <br /><br />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-left">
+                    <section id="address" class="address"><br />
+                        <h3>OUR ADDRESS</h3>
+                        <p id="wifi">*Free wifi is available.*</p>
+                        667 Lawrence Avenue<br />
+                        Kelowna, BC V1Y 6L8<br />
+                        <span class="glyphicon glyphicon-phone"></span> 1-888-888-8888<br />
+                        <span class="glyphicon glyphicon-envelope"></span> <a href='m&#97;ilto&#58;m&#37;&#54;1ri&#110;&#97;%&#52;0m&#37;61ri%6E%6&#49;c&#97;fe%2&#69;com'> Email us</a>
+                        <h3>PARKING</h3>
+                        <p>Free parking is available at the rear entrance of the café.</p><br /><br /><br />
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+        <div class="col-lg-12 text-center">
+        <div class="footer">
+            Copyright &copy; 2017 Marina Café
+        </div>
+        </div>
+        </div>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>      
+</body> 
+</html>

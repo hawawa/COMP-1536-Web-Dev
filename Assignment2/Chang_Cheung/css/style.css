@@ -1,0 +1,201 @@
+/*!
+ * Some styling elements taken from:
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #f5fcff;
+}
+
+.mapbox {
+    padding: 40px;
+}
+
+.map {
+    width:100%;
+    height:300px;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+@media screen and (max-width:767px) {
+    .address { text-align:center }
+    .parking { text-align:center }
+    .map { text-align:center }
+    #welcome { font-size: 40px }
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #9d9d9d;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.text-vertical-center img {
+    width: 70%;
+    max-width: 454px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#address {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#wifi {
+    font-style: italic;
+}
+
+#descript1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#descript2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#descript3 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar {
+    letter-spacing: 2px;
+}
+
+#welcome {
+    letter-spacing: 2px;
+    color: #f5fcff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h3 {
+    color: #46a2d4;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    letter-spacing: 2px;
+}
+
+/*Sub banner in menu, performances, jobs*/
+.sub_banner {
+	position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.sub_banner_image {
+	display: table;
+    position: absolute;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 300px;
+    opacity: 0.65;
+}
+
+.sub_banner_text {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13vw;
+	color: #f5fcff;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+/*menu*/
+#menu_content {
+	padding-top:40px;
+	max-width:1000px;
+	margin:auto;
+}
+
+.menu_image {
+	max-height:500px;
+	width: 100%;
+    padding-top: 20px;
+}
+
+.nav-tabs {
+    padding-left: 25px;
+}
+
+.tab-content {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+/*performances*/
+#performances_content {
+	max-width:1000px;
+	padding-top:40px;
+	margin:auto;
+}
+
+.performance_image {
+	width:100%;
+    max-width: 300px;
+	margin:auto;
+}
+
+/*jobs*/
+#job_content {
+	max-width:1000px;
+	padding-top:40px;
+	margin:auto;
+	text-align:left;
+}
+
+.job_text {
+	line-height:200%;
+    color: #777;
+    padding: 40px;
+}
+
+#job_form {
+    margin: 40px;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+}

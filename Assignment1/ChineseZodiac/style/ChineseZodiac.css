@@ -1,0 +1,161 @@
+body{
+	background-image: url("../Images/yinyang.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#buttons{
+	width: 900px;
+	background-image: url("../Images/weave.jpg");
+	background-size: 60%;
+	height: 80px;
+	margin: auto;
+}
+
+div.container{
+	display: inline-block;
+	margin-left: 90px;
+}
+
+div.info{
+	width: 860px;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #DF1746;
+	color: #ffbd4a;
+	padding: 20px;
+	font-family:Arial, Sans-Serif;
+}
+
+img#banner{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#df1746;
+	padding-top: 2px;
+	width: 900px;
+}
+
+img.buttons{
+	margin: auto;
+	padding-top: 15px;
+	width: 150px;
+}
+
+a{
+	margin: auto;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a:link {
+    color: #ffff00;
+}
+
+a:visited {
+    color: #ffff00;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+img.pic{
+	height: 150px;
+	width: 150px;
+	margin: 50px;
+}
+
+/*each sign*/
+div.content {
+	width: 860px;
+	margin: auto;
+    margin-bottom: 20px;
+	background-color: #DF1746;
+	color: #ffbd4a;
+	padding: 20px;
+	text-align: justify;
+	font-family:Arial, Sans-Serif;
+}
+
+img.pic_main{
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+}
+
+/*
+div.info{
+	width: 860px;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #DF1746;
+	color: #ffbd4a;
+	padding: 20px;
+	font-family:Arial, Sans-Serif;
+}
+*/
+
+.content > h1{
+	font-size:90px;
+	color:#ffbd4a;
+	padding:5px;
+	text-align: center;
+}
+
+
+.content > h3{
+	font-style: italic;
+	color:#FF1746;
+	background-color:#ffbd4a;
+	padding:5px;
+}
+
+
+
+/*contact us*/
+#contactus {
+	width:40%;
+	padding-right:40px;
+	padding-left:40px;
+	margin: auto;
+	text-align:right;
+	min-width:300px;
+	margin-bottom: 20px;
+}
+
+.input_text{
+	width: 70%;
+	padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+	vertical-align: text-top;
+	
+}
+
+#comment_contactus{
+    height: 150px;
+    resize: none;
+}
+
+footer{
+	background-color: grey;
+	display: block;
+	color: white;
+	height: 80px;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+div.studentinfo{
+	padding-top: 1px;
+}

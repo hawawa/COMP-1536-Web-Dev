@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	font-family: Arial;
+}
+
+
+h2 {
+	color: yellow;
+	background: #ff5900;
+	
+}
+
+table{
+	width: 100%;
+	
+}
+
+.td1{
+	color: yellow;
+	background: #a63a00;
+}
+
+.td2{
+	color: white;
+	background: #ff5900;
+}

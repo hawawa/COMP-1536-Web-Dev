@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<FCscore xmlns:away="https://www.bclions.com/away"
+         xmlns:home="https://www.bclions.com/home">
+	<scoredata>
+		<week>Preseason</week>
+		<date>Tue, Jun 6</date>
+		<away:team>BC</away:team>
+		<away:team-score>28</away:team-score>
+		<home:team>Calgary</home:team>
+		<home:team-score>23</home:team-score>
+		<comment>
+			<![CDATA[A dog & a cat ran into the field in the game.]]>
+		</comment>
+	</scoredata>
+	<scoredata>
+		<week>1</week>
+		<date>Sat, Jun 24</date>
+		<away:team>Edmonton</away:team>
+		<away:team-score>30</away:team-score>
+		<home:team>BC</home:team>
+		<home:team-score>27</home:team-score>
+		<comment>All tickets were sold out.</comment>
+	</scoredata>
+	<scoredata>
+		<week>2</week>
+		<date>Fri, Jun 30</date>
+		<away:team>BC</away:team>
+		<away:team-score>28</away:team-score>
+		<home:team>Toronto</home:team>
+		<home:team-score>15</home:team-score>
+		<comment>This is the &quot;4000th&quot; win in history of BC-Lions.</comment>
+	</scoredata>
+	<scoredata>
+		<week>16</week>
+		<date>Sat, Oct 7</date>
+		<away:team>Ottawa</away:team>
+		<home:team>BC</home:team>
+	</scoredata>
+	<scoredata>
+		<week>17</week>
+		<date>Sat, Oct 14</date>
+		<away:team>BC</away:team>
+		<home:team>Winnipeg</home:team>
+	</scoredata>
+		<scoredata>
+		<week>18</week>
+		<date>Sat, Oct 21</date>
+		<away:team>Edmonton</away:team>
+		<home:team>BC</home:team>
+	</scoredata>
+</FCscore>

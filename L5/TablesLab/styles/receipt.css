@@ -1,0 +1,61 @@
+body {
+	font-family: Arial;
+	background-color: #250672;
+	color: white;
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	height:30px;
+}
+
+/*head part*/
+thead{
+	background-color:#452B83;
+	font-weight: bold;
+}
+
+/*body part*/
+tbody{
+	background-color:#7147d7;
+}
+
+tbody td.col1{
+	text-align: center;
+	width:30%;
+	font-weight: bold;
+}
+tbody td.col2{
+	text-align: left;
+	width:30%;
+}
+tbody td.col3{
+	text-align: left;
+	width:10%;
+}
+tbody td.col4{
+	text-align: right;
+	width:10%;
+}
+tbody td.col5{
+	text-align: right;
+	width:10%;
+}
+tbody td.col6{
+	text-align: right;
+	width:10%;
+}
+
+/*foot part*/
+tfoot{
+	background-color:#452B83;
+	font-weight: bold;
+}
+tfoot td.foot1{
+	text-align: right;
+}
+tfoot td.foot2{
+	text-align: right;
+}
